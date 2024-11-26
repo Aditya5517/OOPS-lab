@@ -91,9 +91,9 @@ public:
 int main() {
     TicketReservationSystem system;
 
-    system.addPassenger("Akash", 21, 10001);
-    system.addPassenger("Chtean", 20, 10002);
-    system.addPassenger("Arnav", 21, 10003);
+    system.addPassenger("Aditya", 1, 101);
+    system.addPassenger("Akshat", 2, 102);
+    system.addPassenger("Daksh", 23, 103);
 
     cout << "\nDisplaying all passengers:\n";
     system.displayAllPassengers();
